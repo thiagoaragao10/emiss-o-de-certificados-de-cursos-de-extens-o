@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>emitir certificado</title>
+    <link rel="stylesheet" href="Style.CSS">
+    <style>
+        article{
+            background-color: rgb(190, 190, 190);
+            color: rgb(0, 0, 0);
+            height: 65vh;
+            width: 50%;
+            text-align: center;
+            border-radius: 10px;
+        }
+        
+        form{
+         position: absolute;
+         top: 220px;     
+         left: 280px;
+         text-align: start;     
+        }
+
+        input{
+            padding: 7px 0px;
+            padding-right: 310px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0);
+            outline:none;
+        }
+        .enviar{
+            background-color: #2563eb;
+            padding: 7px 40px;
+        }
+
+
+        .enviar:hover{
+        background-color: #1e40af;
+        color: white;
+        cursor: pointer;
+        }
+    </style>
+</head>
+
+</head>
+
+<body>
+    <div class="caixa">
+        <div class="caixa-menor">
+            <h2>CisteMaster</h2>
+            <nav>
+                <ul>
+                    <li><i class='bx bx-book'></i><a href="cursos.html">Cursos</a></li>
+                    <li><i class='bx bxs-group'></i><a href="alunos.html">Alunos</a></li>
+                    <li><i class='bx bxs-receipt'></i><a href="certifcado.html">Emitir Certificado</a></li>
+                    <li><i class='bx bx-line-chart'></i><a href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <main>
+            <header>
+                <h1>Emitir Certificado</h1>
+                <div class="botao-e-icones">
+                    <a id="login" href="#"><i class='bx bxs-user-circle'></i></a>
+                </div>
+            </header>
+            <hr><hr>
+            <br><br>
+            <article>
+                
+                <div class="formulario-emitir-certificado">
+                    <form>
+                        <label for="nome">ALUNO</label><br>
+                        <input id="nome" type="text" placeholder="digite seu nome" required>
+                        <br><br>
+                        <label for="curso">Curso</label><br>
+                        <input id="curso"  type="text" placeholder="adicione seu curso" required>
+                        <br><br>
+                        <label for="Data">Data de Emissão</label><br>
+                        <input id="Data"  type="date" placeholder="adicione data" required>
+                        <br><br>
+                        <input class="enviar" type="submit" value="Emitir Certificado">
+                    </form>
+                </div>
+            </article>
+            <br><br>
+
+        </main>
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe UI', sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #f8f9fc;
+    height: 100vh;
+}
+
+.caixa{
+    display: flex;
+    width: 100%;
+}
+
+.caixa-menor{
+    display: flex;
+    flex-direction: column;
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    width: 240px;
+    height: 642px;
+}
+
+.caixa-menor h2{
+    margin-bottom: 30px;
+}
+
+.caixa-menor ul{
+    list-style-type: none;
+}
+
+.caixa-menor a{
+    text-decoration: none;
+    color: white;
+}
+
+.caixa-menor li{
+    display: flex;
+    padding: 12px 0;
+    cursor: pointer;
+    align-items: center;
+    gap: 10px;
+}
+
+.caixa-menor li:hover{
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #1e40af;
+}
+
+main{
+    flex-grow: 1;
+    background-color: #f1f5f9;
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.botao-novo-curso{
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.botao-novo-curso:hover{
+    background-color: #1e40af;
+}
+
+#login{ 
+   font-size: 35px;
+   color: black;
+}
+
+.botao-e-icones{
+    display: flex;
+}
